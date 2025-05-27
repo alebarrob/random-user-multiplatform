@@ -19,9 +19,7 @@ class ExploreViewModelIos: ObservableObject {
                 self.state = newState
             }
         }
-    }
-    
-    func load() {
+        
         viewModel.load()
     }
     

@@ -18,9 +18,6 @@ struct ExploreView: View {
                 SuccessExploreScreen(users: viewModel.state.users)
             }
         }
-        .onAppear {
-            viewModel.load()
-        }
     }
 }
 
